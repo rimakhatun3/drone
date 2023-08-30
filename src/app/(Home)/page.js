@@ -22,7 +22,7 @@ const page = () => {
             <Banner/>
          
 
-<div className="marquee flex gap-5  border border-spacing-2 py-7 px-10 mx-12 w-[1300px] my-10">
+{/* <div className="marquee flex gap-5  border border-spacing-2 py-7 px-10 mx-12 w-[1300px] my-10">
 <Image alt='' width={60} height={20} src={img1}/>
   <Image alt='' width={60} height={20} src={img2}/>
   <Image alt='' width={60} height={20} src={img3}/>
@@ -42,7 +42,7 @@ const page = () => {
 
  
   
-    </div>
+    </div> */}
 
     <Photography/>
     <Bestdrone/>
