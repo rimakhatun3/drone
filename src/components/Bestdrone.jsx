@@ -1,6 +1,6 @@
 import droneData from '@/data/droneData';
 import React from 'react';
-import SingleDrone from '../app/(Home)/SingleDrone';
+import SingleDrone from './SingleDrone';
 
 const Bestdrone = async () => {
     // const data = await fetch('../../data/droneData.json')
