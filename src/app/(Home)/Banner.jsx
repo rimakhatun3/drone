@@ -5,15 +5,7 @@ import img1 from "../../../public/banner1.jpg"
 import img2 from "../../../public/banner2.jpg"
 import img3 from "../../../public/banner3.jpg"
 
-// import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/effect-fade';
-// import { Autoplay, Navigation ,Pagination} from 'swiper/modules';
 
-import "swiper/css/bundle";
-// import bannerData from '@/data/bannerData';
-// import SingleBanner1 from './SingleBanner1';
 import Image from 'next/image';
 
 const Banner = () => {
@@ -83,39 +75,6 @@ const Banner = () => {
   </div>
 </div>
 
-
-            {/* <Swiper
-       spaceBetween={30}
-       
-       centeredSlides={true}
-       autoplay={{
-         delay: 2500,
-         disableOnInteraction: false,
-       }}
-       pagination={{
-         clickable: true,
-       }}
-       navigation={true}
-       modules={[Autoplay,  Navigation, Pagination]}
-        
-        
-      >
-        {bannerData.map((slider) => (
-          <SwiperSlide key={slider.id}>
-           <SingleBanner1 slider={slider}/>
-          </SwiperSlide>
-        ))}
-
-        <SwiperSlide>
-            <Image alt='' src={img1}></Image>
-        </SwiperSlide>
-        <SwiperSlide>
-            <Image alt='' src={img2}></Image>
-        </SwiperSlide>
-        <SwiperSlide>
-            <Image alt='' src={img3}></Image>
-        </SwiperSlide>
-      </Swiper> */}
         </div>
     );
 };

@@ -3,48 +3,15 @@ import img1 from "../../../public/client1.jpg"
 import img2 from "../../../public/client2.jpg"
 import img3 from "../../../public/client3.jpg"
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import { Pagination } from 'swiper/modules';
+
+
 import 'swiper/css/pagination';
-import clientData from '@/data/clientdata';
-import SingleClient from './SingleClient';
+
 import Image from "next/image";
 const OurClient = () => {
     return (
         <div className='mt-10'>
             <h1 className="text-5xl font-extrabold text-center my-20">Our Great Client</h1>
-              {/* <Swiper
-         slidesPerView={'auto'}
-         spaceBetween={30}
-         pagination={{
-           clickable: true,
-         }}
-         modules={[Pagination]}
-         className="mySwiper"
-      > */}
-
-        {/* {clientData.map(item=><SwiperSlide key={item._id} >
-<SingleClient item={item}></SingleClient>
-          
-        </SwiperSlide>)} */}
-
-        {/* <SwiperSlide>
-            <Image width={100} height={50} src={img1} alt=""></Image>
-       
-        </SwiperSlide>
-        <SwiperSlide>
-            <Image width={100} height={50} src={img2} alt=""></Image>
-       
-        </SwiperSlide>
-        <SwiperSlide>
-            <Image width={100} height={50} src={img3} alt=""></Image>
-       
-        </SwiperSlide>
-         */}
-        
-      
-      {/* </Swiper> */}
 
 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-end">
     <div className="flex flex-col justify-center items-center gap-5">

@@ -1,7 +1,5 @@
 import React from 'react';
 import Banner from "./Banner";
-
-import Marquepage from './marque';
 import Image from 'next/image';
 import img1 from "../../../public/drone1.png"
 import img2 from "../../../public/drone2.png"
@@ -22,7 +20,7 @@ const page = () => {
     return (
         <div>
             <Banner/>
-          <Marquepage/>
+         
 
 <div className="marquee flex gap-5  border border-spacing-2 py-7 px-10 mx-12 w-[1300px] my-10">
 <Image alt='' width={60} height={20} src={img1}/>
