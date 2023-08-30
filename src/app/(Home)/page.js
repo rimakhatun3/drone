@@ -1,5 +1,5 @@
 import React from 'react';
-import Banner from './banner';
+import Banner from "./Banner";
 
 import Marquepage from './marque';
 import Image from 'next/image';
