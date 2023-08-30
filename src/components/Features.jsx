@@ -1,14 +1,14 @@
 import React from 'react';
-import feature1 from "../../../public/feature1.png"
-import feature2 from "../../../public/feature2.png"
-import feature3 from "../../../public/feature3.png"
-import feature4 from "../../../public/feature4.png"
-import feature5 from "../../../public/feature5.png"
-import feature6 from "../../../public/feature6.png"
-import feature7 from "../../../public/feature7.png"
-import feature8 from "../../../public/feature8.png"
-import feature9 from "../../../public/feature9.png"
-import feature10 from "../../../public/feature10.png"
+import feature1 from "../../public/feature1.png"
+import feature2 from "../../public/feature2.png"
+import feature3 from "../../public/feature3.png"
+import feature4 from "../../public/feature4.png"
+import feature5 from "../../public/feature5.png"
+import feature6 from "../../public/feature6.png"
+import feature7 from "../../public/feature7.png"
+import feature8 from "../../public/feature8.png"
+import feature9 from "../../public/feature9.png"
+import feature10 from "../../public/feature10.png"
 import Image from 'next/image';
 
 const Features = () => {

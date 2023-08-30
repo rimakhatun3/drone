@@ -1,7 +1,7 @@
 import React from 'react';
-import drone1 from "../../../public/drone5.jpg"
+import drone1 from "../../public/drone5.jpg"
 import Image from 'next/image';
-import bg from "../../../public/bg.jpg"
+import bg from "../../public/bg.jpg"
 
 const Photography = () => {
     return (

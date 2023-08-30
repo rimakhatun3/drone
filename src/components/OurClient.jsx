@@ -1,7 +1,7 @@
 "use client"
-import img1 from "../../../public/client1.jpg"
-import img2 from "../../../public/client2.jpg"
-import img3 from "../../../public/client3.jpg"
+import img1 from "../../public/client1.jpg"
+import img2 from "../../public/client2.jpg"
+import img3 from "../../public/client3.jpg"
 
 
 
