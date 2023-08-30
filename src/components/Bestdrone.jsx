@@ -1,10 +1,10 @@
 import droneData from '@/data/droneData';
 import React from 'react';
-import SingleDrone from './SingleDrone';
+import SingleDrone from '../app/(Home)/SingleDrone';
 
 const Bestdrone = async () => {
-    const data = await fetch('../../data/droneData.json')
-    const droneData = await res.json(data)
+    // const data = await fetch('../../data/droneData.json')
+    // const droneData = await res.json(data)
     return (
         <div>
             <h1 className='text-5xl font-extrabold text-center mt-10 mb-20'>Our Exclusive Collection</h1>
