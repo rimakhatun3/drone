@@ -1,6 +1,6 @@
 import React from 'react';
 import Banner from './banner';
-import Marquee from "react-fast-marquee";
+
 import Marquepage from './marque';
 import Image from 'next/image';
 import img1 from "../../../public/drone1.png"
