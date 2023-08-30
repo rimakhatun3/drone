@@ -8,15 +8,15 @@ const Navbar = () => {
             title:"Home"
         },
         {
-            path:"/",
+            path:"/about",
             title:"About"
         },
         {
-            path:"/",
+            path:"/shop",
             title:"Shop"
         },
         {
-            path:"/",
+            path:"/contact",
             title:"Contact Us"
         }
     ]
