@@ -27,17 +27,8 @@ const Footer = () => {
       </ul>
     </div>
     <div className="w-full sm:w-auto">
-      <ul className="flex flex-col items-center justify-center sm:justify-end">
-        <li>
-          {/* <a href="#" className=" flex gap-2 items-center font-medium mr-4"><FaFacebook></FaFacebook> Facebook</a> */}
-        </li>
-        <li>
-          {/* <a href="#" className=" flex gap-2 items-center font-medium mr-4"><FaTwitter></FaTwitter> Twitter</a> */}
-        </li>
-        <li>
-          {/* <a href="#" className=" flex gap-2 items-center font-medium mr-4"><FaInstagram></FaInstagram> Instagram</a> */}
-        </li>
-      </ul>
+     
+      
     </div>
   
     <div>
