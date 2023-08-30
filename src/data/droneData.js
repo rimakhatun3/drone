@@ -1,4 +1,4 @@
- [
+const droneData = [
     {
         "name": "Phantom 4 Pro",
         "price": 1499,
@@ -55,3 +55,4 @@
     }
 ]
  
+export default droneData;

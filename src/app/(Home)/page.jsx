@@ -16,7 +16,7 @@ const page = () => {
 
 
     <Photography/>
-    {/* <Bestdrone/> */}
+    <Bestdrone/>
     <OurClient/>
     <Features/>
 
