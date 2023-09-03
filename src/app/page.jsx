@@ -1,4 +1,4 @@
-import Banner from '@/components/Banner';
+import Banner from '../components/Banner';
 import Bestdrone from '@/components/Bestdrone';
 import Features from '@/components/Features';
 import OurClient from '@/components/OurClient';
