@@ -10,15 +10,24 @@ export const metadata = {
 
 const RootLayout=({ children })=> {
   return (
-   <div className="container mx-auto">
-<Navbar></Navbar>
 
-<main>
-{children}
-</main>
+    <html>
+      <body>
+        <Navbar/>
+        {children}
+        <Footer/>
+      </body>
+    </html>
+//    <div className="container mx-auto">
+// <main>
+// <Navbar></Navbar>
 
-<Footer/>
-   </div>
+
+// {children}
+
+// <Footer/>
+// </main>
+//    </div>
   )
 }
 

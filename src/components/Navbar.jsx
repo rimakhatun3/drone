@@ -27,7 +27,7 @@ const Navbar = () => {
             <ul className='flex flex-row items-center justify-center gap-4'>
 {
     navData.map(({ path,title })=>(
-    <li className='list-none' key={path}>
+    <li  key={path}>
 <Link href={path}>{title}</Link>
     </li>))
 }
