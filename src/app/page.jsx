@@ -15,10 +15,10 @@ const page = () => {
 
 
 
-    <Photography/>
+    {/* <Photography/>
     <Bestdrone/>
     <OurClient/>
-    <Features/>
+    <Features/> */}
 
         </div>
     );
