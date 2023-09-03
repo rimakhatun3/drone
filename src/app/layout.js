@@ -12,7 +12,7 @@ const RootLayout=({ children })=> {
   return (
 
     <html>
-      <body>
+      <body className="container mx-auto">
         <Navbar/>
         {children}
         <Footer/>
