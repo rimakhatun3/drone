@@ -1,7 +1,12 @@
+"use client"
 import Link from 'next/link';
 import React from 'react';
+import { useUser } from '@auth0/nextjs-auth0/client';
+import Image from 'next/image';
 
 const Navbar = () => {
+const {user,isLoading,error} = useUser()
+
     const navData = [
         {
             path:"/",
@@ -29,8 +34,33 @@ const Navbar = () => {
     navData.map(({ path,title })=>(
     <li  key={path}>
 <Link href={path}>{title}</Link>
+
     </li>))
 }
+
+<li>
+{
+    error&& <p>{error.message}</p>
+}
+    
+{
+    user?<div className='flex justify-center items-center gap-3'>
+
+<div className="tooltip mx-2" data-tip={user?.nickname}>
+
+                <div className="w-12 ">
+                  <img className='rounded-full' src={user?.picture} />
+                </div>
+              </div>
+    {/* <Image width={25} height={25} alt='profile'  src={user.picture}></Image> */}
+    <a href="api/auth/logout">Logout</a></div>:
+    <><a href="api/auth/login">Login</a></>
+}
+
+
+
+    
+</li>
             </ul>
             </div>
         </nav>
