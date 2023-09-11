@@ -3,6 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 import { useUser } from '@auth0/nextjs-auth0/client';
 import Image from 'next/image';
+import logo from '../../public/logo-white.png'
 
 const Navbar = () => {
 const {user,isLoading,error} = useUser()
@@ -26,13 +27,16 @@ const {user,isLoading,error} = useUser()
         }
     ]
     return (
-        <nav className='navbar sticky top-0 z-10 flex text-white flex-row justify-between items-center container mx-auto bg-sky-700 px-12 py-5 shadow-lg'>
-            <h2 className='text-2xl font-bold'>Drone</h2>
+        <nav className='navbar sticky top-0 z-10 flex text-white flex-row justify-between items-center container mx-auto bg-sky-700 px-12 py-2 shadow-lg'>
+           <div>
+           <Image width={200} height={200} alt='logo' src={logo}></Image>
+           <input className='border rounded-xl w-5/6 py-2 px-4' placeholder='Search here' type="text" name="" id="" />
+           </div>
             <div>
-            <ul className='flex flex-row items-center justify-center gap-4'>
+            <ul className='flex flex-row items-center justify-center '>
 {
     navData.map(({ path,title })=>(
-    <li  key={path}>
+    <li className='hover:bg-sky-300 py-2 px-4 rounded-lg'  key={path}>
 <Link href={path}>{title}</Link>
 
     </li>))
