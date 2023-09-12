@@ -1,7 +1,9 @@
 "use client"
+import Image from 'next/image';
 import React from 'react';
+import logo from "../../public/logo-white.png"
 
-// import {FaFacebook,FaTwitter,FaInstagram} from 'react-icons'
+import { FaFacebook,FaTwitter,FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -11,8 +13,22 @@ const Footer = () => {
   <div className="container py-10 px-20 mx-auto flex text-white bg-sky-700   flex-wrap justify-between">
     <div className="w-full text-white flex flex-col justify-center items-center sm:w-auto mb-6 sm:mb-0">
       
-      <span className=" text-sm font-medium ml-2">Drone</span>
+    <Image width={200} height={200} alt='logo' src={logo}></Image>
     </div>
+    {/* <div className="w-full sm:w-auto ">
+      <ul className="flex flex-row items-center justify-center gap-2 sm:justify-end">
+        <li>
+          <a href="#" className=" text-sm font-medium mr-4"> <FaFacebook></FaFacebook></a>
+        </li>
+        <li>
+          <a href="#" className=" text-sm font-medium mr-4"><FaTwitter></FaTwitter></a>
+          
+        </li>
+        <li>
+          <a href="#" className=" text-sm font-medium mr-4"><FaInstagram></FaInstagram></a>
+        </li>
+      </ul>
+    </div> */}
     <div className="w-full sm:w-auto ">
       <ul className="flex flex-col items-center justify-center sm:justify-end">
         <li>
@@ -20,6 +36,7 @@ const Footer = () => {
         </li>
         <li>
           <a href="#" className=" text-sm font-medium mr-4">About</a>
+          
         </li>
         <li>
           <a href="#" className=" text-sm font-medium mr-4">Contact</a>
